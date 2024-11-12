@@ -11,12 +11,19 @@
 - **Payment Integration**: Secure payment system for course access.
 
 ## Technologies Used:
-- **Backend**: Laravel 10
-- **Frontend**: Blade, HTML, CSS, JavaScript
-- **Database**: MySQL
-- **Security**: Advanced security features for safe data handling
-- **Payment Gateway**: Stripe, PayPal
-- **APIs**: RESTful APIs for data handling
+- **Backend**:
+  - **Laravel 11**: A robust PHP framework for building APIs and handling server-side logic. It is used for authentication, database management, and API routes.
+  - **RESTful API**: Designed for seamless integration with frontend applications (React/Next.js).
+  - **Authentication**: Laravel Breeze or Sanctum (based on your choice).
+  - **Database**: MySQL or PostgreSQL for structured data storage and management.
+  - **Queue System**: For handling background tasks such as video processing or email notifications.
+  - **Payment Integration**: Stripe, PayPal for handling secure payments.
+  
+- **Frontend**:
+  - **React**: A JavaScript library used for building the user interface, ensuring a dynamic, single-page application experience.
+  - **Next.js**: A React framework for server-side rendering (SSR) and static site generation (SSG), improving SEO and performance.
+  - **HTML/CSS**: For structuring and styling web pages.
+  - **JavaScript**: To handle interactivity and client-side dynamic behavior.
 
 ## Installation:
 1. Clone the repository:
